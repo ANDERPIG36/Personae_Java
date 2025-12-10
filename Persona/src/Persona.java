@@ -34,19 +34,9 @@ public class Persona {
     8:sacro
     9:maledizione
     */
-    int[] debolezza;
-
-    /*int debolezzaFisico;
-    int debolezzaArmaDaFuoco;
-    int debolezzaFuoco;
-    int debolezzaGhiaccio;
-    int debolezzaElettricita;
-    int debolezzaVento;
-    int debolezzaPsico;
-    int debolezzaNucleare;
-    int debolezzaSacro;
-    int debolezzaMaledizione;*/
+    int[] debolezze = new int[12];
 
     //8 slot abilita
+    Abilita[] abilita = new Abilita[8];
 
 }
